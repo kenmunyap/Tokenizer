@@ -12,7 +12,18 @@
 
 
 
-
+/*
+*	FDA 
+*	
+*	Operation:
+*		operand1 take LSB 0 to 7 bit value
+*		operand2 take LSB bit 8 value
+*		operand3 take LSB bit 9 value
+*
+*	Return:
+*		opcode value
+*
+*/
 int FDA(String *arguments){
 	int operand1,operand2,operand3;
 	int opcode;
